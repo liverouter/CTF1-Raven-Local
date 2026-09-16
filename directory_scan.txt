@@ -1,0 +1,32 @@
+===============================================================
+Gobuster v3.8.2
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://192.168.56.106
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/seclists/Discovery/Web-Content/DirBuster-2007_directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.8.2
+[+] Extensions:              php,html,txt,json
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+index.html           (Status: 200) [Size: 16819]
+img                  (Status: 301) [Size: 314] [--> http://192.168.56.106/img/]
+about.html           (Status: 200) [Size: 13265]
+contact.php          (Status: 200) [Size: 9699]
+service.html         (Status: 200) [Size: 11114]
+css                  (Status: 301) [Size: 314] [--> http://192.168.56.106/css/]
+wordpress            (Status: 301) [Size: 320] [--> http://192.168.56.106/wordpress/]
+team.html            (Status: 200) [Size: 15449]
+manual               (Status: 301) [Size: 317] [--> http://192.168.56.106/manual/]
+js                   (Status: 301) [Size: 313] [--> http://192.168.56.106/js/]
+vendor               (Status: 301) [Size: 317] [--> http://192.168.56.106/vendor/]
+elements.html        (Status: 200) [Size: 35226]
+fonts                (Status: 301) [Size: 316] [--> http://192.168.56.106/fonts/]
+server-status        (Status: 403) [Size: 302]
+===============================================================
+Finished
+===============================================================
